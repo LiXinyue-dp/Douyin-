@@ -132,3 +132,5 @@ dmypy.json
 .idea
 /app/api/endpoints/download/
 /download/
+.batch_browser_profile/
+*.part

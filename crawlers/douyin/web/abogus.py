@@ -15,6 +15,8 @@ Changes Made:
 1. Changed the ua_code to compatible with the current config file User-Agent string in https://github.com/Evil0ctal/Douyin_TikTok_Download_API/blob/main/crawlers/douyin/web/config.yaml
 """
 
+from __future__ import annotations
+
 from random import choice
 from random import randint
 from random import random

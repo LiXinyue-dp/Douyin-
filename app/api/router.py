@@ -4,6 +4,7 @@ from app.api.endpoints import (
     tiktok_app,
     douyin_web,
     bilibili_web,
+    batch_download,
     hybrid_parsing, ios_shortcut, download,
 )
 
@@ -27,3 +28,6 @@ router.include_router(ios_shortcut.router, prefix="/ios", tags=["iOS-Shortcut"])
 
 # Download routers
 router.include_router(download.router, tags=["Download"])
+
+# Batch download routers
+router.include_router(batch_download.router, tags=["Download"])
